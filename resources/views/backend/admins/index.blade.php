@@ -40,9 +40,11 @@
                         <a href="{{ route('admin.user.edit', $user->id) }}">
                             <button class="btn btn-primary dim" type="button"><i class="fa fa-edit"></i></button>
                         </a>
-                        <a href="#" onclick="document.getElementById('delete-user-{{ $user->id }}').submit();">
-                            <button class="btn btn-danger dim" type="button"><i class="fa fa-trash"></i></button>
-                        </a>
+                        @if (Auth::user()->id != $user->id)
+                            <a href="#" onclick="document.getElementById('delete-user-{{ $user->id }}').submit();">
+                                <button class="btn btn-danger dim" type="button"><i class="fa fa-trash"></i></button>
+                            </a>
+                        @endif
                         <form action="{{ route('admin.user.destroy', $user->id) }}" method="POST" id="delete-user-{{ $user->id }}">
                             @csrf
                             @method('delete')

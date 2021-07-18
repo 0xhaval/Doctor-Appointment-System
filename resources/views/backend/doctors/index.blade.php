@@ -1,6 +1,5 @@
 @extends('backend.layouts.app')
 @section('content')
-<script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
 <div class="ibox ">
     <div class="ibox-title">
         @if ($message = Session::get('message'))
@@ -29,6 +28,7 @@
                     <th>Speicality</th>
                     <th>Appointment</th>
                     <th>Patients</th>
+                    <th>Notes</th>
                     <th colspan="2">Actions</th>
                 </tr>
             </thead>
@@ -51,6 +51,7 @@
                         ?>
                     </td>
                     <td>{{ $doctor->patient_count }}</td>
+                    <td>{{ $doctor->note }}</td>
                     <td>
                         <a href="{{ route('admin.doctor.edit', $doctor->id) }}">
                             <button class="btn btn-primary dim" type="button"><i class="fa fa-edit"></i></button>

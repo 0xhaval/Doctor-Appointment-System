@@ -4,7 +4,7 @@
       <div class="contact-info mr-auto">
         <i class="icofont-envelope"></i> <a href="mailto:contact@example.com">contact@example.com</a>
         <i class="icofont-phone"></i> +1 5589 55488 55
-        <i class="icofont-google-map"></i> A108 Adam Street, NY
+        <i class="icofont-google-map"></i> Baghdad Street, Kirkuk
       </div>
       <div class="social-links">
         <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
@@ -20,7 +20,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo mr-auto"><a href="{{ route('home') }}">Medilab</a></h1>
+      <h1 class="logo mr-auto"><a href="{{ route('home') }}">MVS</a></h1>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
@@ -37,11 +37,13 @@
                 </li>
             @endif
 
+            <!--
             @if (Route::has('register'))
                 <li class="nav-item">
                     <a class="appointment-btn text-light p-2" href="{{ route('register') }}">{{ __('Register') }}</a>
                 </li>
             @endif
+            -->
           @else
               <li class="nav-item dropdown">
                   <a id="navbarDropdown" class="appointment-btn text-light p-2 dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>

@@ -28,6 +28,7 @@
                     <th>Type</th>
                     <th>Date</th>
                     <th>Status</th>
+                    <th>created at</th>
                     <th colspan="2">Actions</th>
                 </tr>
             </thead>
@@ -36,11 +37,29 @@
                 <tr>
                     <td>{{ $key }}</td>
                     <td>
-                        <a href="{{ route('admin.appointment.show', $appointment->id) }}">{{ $appointment->type }}</a>
+                        <a href="{{ route('admin.appointment.show', $appointment->id) }}">
+                            @if ($appointment->type == 'doctor')
+                            @foreach ($doctors as $doctor)
+                                @if ($doctor->id == $appointment->doctor_id)
+                                {{ $doctor->name }}
+                                @endif
+                            @endforeach
+                            @else
+                            @foreach ($medicals as $medical)
+                                @if ($medical->id == $appointment->medical_lab_id)
+                                {{ $medical->name }}
+                                @endif
+                            @endforeach
+                            @endif
+
+                        </a>
                     </td>
                     <td>{{ \Carbon\Carbon::createFromFormat('Y-m-d', $appointment->day)->format('l - m/d/Y')  }}</td>
                     <td>
                         <small style="font-size: 13px"><small class="badge {{ ($appointment->status==1) ? 'badge-success' : 'badge-danger'  }}">{{ ($appointment->status==1) ? 'Opened' : 'Closed' }}</small></small>
+                    </td>
+                    <td>
+                        {{ $appointment->created_at }}
                     </td>
                     <td>
                         <a href="{{ route('admin.appointment.edit', $appointment->id) }}">

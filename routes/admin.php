@@ -15,4 +15,7 @@ Route::middleware('admin')->prefix('admin')->name('admin.')->group(function () {
     Route::resource('appointment', AppointmentController::class);
     Route::resource('medical', MedicalLabController::class);
     Route::resource('user', UserController::class);
+    Route::get('report', function () {
+        return view('backend.appointments.report');
+    })->name('appointment.report');
 });

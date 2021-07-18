@@ -3,7 +3,7 @@
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center">
     <div class="container">
-        <h1>Welcome to Medilab</h1>
+        <h1>Medical Volunteer System</h1>
         <h2>We are team of talented </h2>
         <a href="#about" class="btn-get-started scrollto">Get Started</a>
     </div>
@@ -16,10 +16,9 @@
           <div class="row">
             <div class="col-lg-4 d-flex align-items-stretch">
               <div class="content">
-                <h3>Why Choose Medilab?</h3>
+                <h3>Why Choose MVS?</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                  Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                    We offer you appointments with the best doctors and laboratories to examine patients at the lowest prices or for free
                 </p>
                 <div class="text-center">
                   <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -32,22 +31,22 @@
                   <div class="col-xl-4 d-flex align-items-stretch">
                     <div class="icon-box mt-4 mt-xl-0">
                       <i class="bx bx-receipt"></i>
-                      <h4>Corporis voluptates sit</h4>
-                      <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                      <h4>Health A to Z</h4>
+                      <p>Your complete guide to conditions, symptoms and treatments, including what to do and when to get help.                    </p>
                     </div>
                   </div>
                   <div class="col-xl-4 d-flex align-items-stretch">
                     <div class="icon-box mt-4 mt-xl-0">
                       <i class="bx bx-cube-alt"></i>
-                      <h4>Ullamco laboris ladore pan</h4>
-                      <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                      <h4>Medicines A to Z</h4>
+                      <p>Find out how your medicine works, how and when to take it, possible side effects and answers to your common questions.                    </p>
                     </div>
                   </div>
                   <div class="col-xl-4 d-flex align-items-stretch">
                     <div class="icon-box mt-4 mt-xl-0">
                       <i class="bx bx-images"></i>
-                      <h4>Labore consequatur</h4>
-                      <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                      <h4>Coronavirus (COVID-19)</h4>
+                      <p>Get the latest advice about COVID-19, including information about symptoms, self-isolation and testing.</p>
                     </div>
                   </div>
                 </div>
@@ -68,25 +67,25 @@
             </div>
 
             <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-              <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-              <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
+              <h3>What we do</h3>
+              <p>At MVS, our mission is to make healthcare easy and accessible to everyone. We want to empower you to take charge of your health with clinically accurate and up to date health resources</p>
 
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-fingerprint"></i></div>
-                <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                <h4 class="title"><a href="">1</a></h4>
+                <p class="description">Book an in-person or online consultation (coming soon)</p>
               </div>
 
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-gift"></i></div>
-                <h4 class="title"><a href="">Nemo Enim</a></h4>
-                <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                <h4 class="title"><a href="">2</a></h4>
+                <p class="description">Unlimited & easy access to health information</p>
               </div>
 
               <div class="icon-box">
                 <div class="icon"><i class="bx bx-atom"></i></div>
-                <h4 class="title"><a href="">Dine Pad</a></h4>
-                <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+                <h4 class="title"><a href="">3</a></h4>
+                <p class="description">Connect with doctors from all over the world to get a second opinion on your medical condition (coming soon)</p>
               </div>
 
             </div>
@@ -144,55 +143,55 @@
 
           <div class="section-title">
             <h2>Services</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <p>WHAT MAKES US DIFFERENT?</p>
           </div>
 
           <div class="row">
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
               <div class="icon-box">
                 <div class="icon"><i class="icofont-heart-beat"></i></div>
-                <h4><a href="">Lorem Ipsum</a></h4>
-                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                <h4><a href="">Comprehensive medical directory</a></h4>
+                <p>with detailed, verified information about more than a lakh doctor partners across the country</p>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
               <div class="icon-box">
                 <div class="icon"><i class="icofont-drug"></i></div>
-                <h4><a href="">Sed ut perspiciatis</a></h4>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                <h4><a href="">Online appointment booking</a></h4>
+                <p>at over 9,000 leading hospitals and clinics with doctors who use MVS</p>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
               <div class="icon-box">
                 <div class="icon"><i class="icofont-dna-alt-2"></i></div>
-                <h4><a href="">Magni Dolores</a></h4>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                <h4><a href="">Diagnostic Tests through MVS Associate Labs</a></h4>
+                <p> to get samples collected from the comfort and safety of one’s home</p>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
               <div class="icon-box">
                 <div class="icon"><i class="icofont-heartbeat"></i></div>
-                <h4><a href="">Nemo Enim</a></h4>
-                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                <h4><a href="">Medicine delivery </a></h4>
+                <p>by a network of verified pharmacies across the country</p>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
               <div class="icon-box">
                 <div class="icon"><i class="icofont-disabled"></i></div>
-                <h4><a href="">Dele cardo</a></h4>
-                <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                <h4><a href="">Online consultation </a></h4>
+                <p>with trusted doctors across 20+ specialities</p>
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
               <div class="icon-box">
                 <div class="icon"><i class="icofont-autism"></i></div>
-                <h4><a href="">Divera don</a></h4>
-                <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+                <h4><a href="">EASY & UNLIMITED ACCESS</a></h4>
+                <p>Get unlimited access to medical information and resources backed by the NHS to help you feel better and live longer</p>
               </div>
             </div>
 
@@ -207,7 +206,7 @@
 
           <div class="section-title">
             <h2>Departments</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <p></p>
           </div>
 
           <div class="row">
@@ -236,8 +235,8 @@
                   <div class="row">
                     <div class="col-lg-8 details order-2 order-lg-1">
                       <h3>Cardiology</h3>
-                      <p class="font-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                      <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                      <p class="font-italic">There are a range of disorders of the cardiovascular system that are treated and studied under the field of cardiology</p>
+                      <p>Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system. The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease and electrophysiology</p>
                     </div>
                     <div class="col-lg-4 text-center order-1 order-lg-2">
                       <img src="{{ asset('img/departments-1.jpg') }}" alt="" class="img-fluid">
@@ -247,9 +246,9 @@
                 <div class="tab-pane" id="tab-2">
                   <div class="row">
                     <div class="col-lg-8 details order-2 order-lg-1">
-                      <h3>Et blanditiis nemo veritatis excepturi</h3>
-                      <p class="font-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p>
-                      <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal</p>
+                      <h3>Neurology</h3>
+                      <p class="font-italic">Many neurologists also have additional training or interest in one area of neurology, such as stroke, epilepsy, neuromuscular, sleep medicine, pain management, or movement disorders.                    </p>
+                      <p>Neurology is a branch of medicine dealing with disorders of the nervous system. Neurology deals with the diagnosis and treatment of all categories of conditions and disease involving the central and peripheral nervous systems, including their coverings, blood vessels, and all effector tissue, such as muscle.</p>
                     </div>
                     <div class="col-lg-4 text-center order-1 order-lg-2">
                       <img src="{{ asset('img/departments-2.jpg') }}" alt="" class="img-fluid">
@@ -259,9 +258,9 @@
                 <div class="tab-pane" id="tab-3">
                   <div class="row">
                     <div class="col-lg-8 details order-2 order-lg-1">
-                      <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
-                      <p class="font-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
-                      <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+                      <h3>Hepatology</h3>
+                      <p class="font-italic">Hepatology is an area of medicine that focuses on diseases of the liver as well as related conditions.</p>
+                      <p>Hepatology is the branch of medicine that incorporates the study of liver, gallbladder, biliary tree, and pancreas as well as management of their disorders</p>
                     </div>
                     <div class="col-lg-4 text-center order-1 order-lg-2">
                       <img src="{{ asset('img/departments-3.jpg') }}" alt="" class="img-fluid">
@@ -271,9 +270,9 @@
                 <div class="tab-pane" id="tab-4">
                   <div class="row">
                     <div class="col-lg-8 details order-2 order-lg-1">
-                      <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
-                      <p class="font-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p>
-                      <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores sed qui veritatis aperiam quia a laborum inventore</p>
+                      <h3>Pediatrics</h3>
+                      <p class="font-italic">A medical doctor who specializes in this area is known as a pediatrician, or paediatrician. </p>
+                      <p>Pediatrics is the branch of medicine that involves the medical care of infants, children, and adolescents. The American Academy of Pediatrics recommends people seek pediatric care through the age of 21. In the United Kingdom, paediatrics covers patients until age 18</p>
                     </div>
                     <div class="col-lg-4 text-center order-1 order-lg-2">
                       <img src="{{ asset('img/departments-4.jpg') }}" alt="" class="img-fluid">
@@ -283,9 +282,9 @@
                 <div class="tab-pane" id="tab-5">
                   <div class="row">
                     <div class="col-lg-8 details order-2 order-lg-1">
-                      <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                      <p class="font-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                      <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
+                      <h3>Eye Care</h3>
+                      <p class="font-italic">Getting comprehensive dilated eye exams is especially important because some eye diseases may not have warning signs. The exams are the only way to detect these diseases in their early stages, when they are easier to treat.                    </p>
+                      <p>Your eyes are an important part of your health. Most people rely on their eyes to see and make sense of the world around them. But some eye diseases can lead to vision loss, so it is important to identify and treat eye diseases as early as possible. You should get your eyes checked as often as your health care provider recommends it, or if you have any new vision problems. And just as it is important to keep your body healthy, you also need to keep your eyes healthy.</p>
                     </div>
                     <div class="col-lg-4 text-center order-1 order-lg-2">
                       <img src="{{ asset('img/departments-5.jpg') }}" alt="" class="img-fluid">
@@ -305,7 +304,7 @@
 
           <div class="section-title">
             <h2>Doctors</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <p></p>
           </div>
 
           <div class="row">
@@ -389,7 +388,7 @@
 
           <div class="section-title">
             <h2>Frequently Asked Questions</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <p></p>
           </div>
 
           <div class="faq-list">
@@ -533,7 +532,7 @@
 
           <div class="section-title">
             <h2>Contact</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <p></p>
           </div>
         </div>
 

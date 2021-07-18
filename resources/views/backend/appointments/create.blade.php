@@ -62,18 +62,19 @@
                     </div>
 
                     <div class="col-lg-12">
-
+                        <hr>
                         <div class="form-group">
                             <label for="patient_id">Select Patient</label>
-                            <select name="patient_id" id="patient_id" class="form-control">
+                            <select name="patient_id" id="patient_id" class="form-control ">
                                 <option value="" disabled selected>Choose one..</option>
                                 @foreach ($patients as $patient)
-                                    <option value="{{ $patient->id }}">{{ $patient->name }}</option>
+                                    <option value="{{ $patient->id }}" id="">{{ $patient->name }}</option>
                                 @endforeach
                             </select>
                         </div>
 
                         <div class="form-group">
+                            <hr>
                             <label for="doctor_id">Select Doctor</label>
                             <select name="doctor_id" id="doctor_id" class="form-control">
                                 <option value="" disabled selected>Choose one..</option>
@@ -87,6 +88,7 @@
 
 
                         <div class="form-group">
+                            <hr>
                             <label for="medical_lab_id">Select Medical Lab</label>
                             <select name="medical_lab_id" id="medical_lab_id" class="form-control">
                                 <option value="" disabled selected>Choose one..</option>
@@ -122,3 +124,12 @@
     </div>
 </div>
 @endsection
+@section('scripts')
+<script>
+    $('#patient_id').select2();
+    $('#doctor_id').select2();
+    $('#medical_lab_id').select2();
+</script>
+@endsection
+
+

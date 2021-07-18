@@ -7,6 +7,7 @@ use App\Models\Appointment;
 use App\Models\Doctor;
 use App\Models\MedicalLab;
 use App\Models\Patient;
+use Faker\Provider\Medical;
 use Illuminate\Http\Request;
 
 class AppointmentController extends Controller
@@ -19,7 +20,9 @@ class AppointmentController extends Controller
     public function index()
     {
         return view('backend.appointments.index', [
-            'appointments' => Appointment::latest()->get()
+            'appointments' => Appointment::latest()->get(),
+            'medicals' => MedicalLab::all(),
+            'doctors' => Doctor::all()
         ]);
     }
 

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Backend;
 
 use App\Http\Controllers\Controller;
+use App\Models\Doctor;
 use App\Models\Patient;
 use Illuminate\Http\Request;
 
@@ -16,7 +17,8 @@ class PatientController extends Controller
     public function index()
     {
         return view('backend.patients.index', [
-            'patients' => Patient::latest()->get()
+            'patients' => Patient::latest()->get(),
+            'doctors' => Doctor::all()
         ]);
     }
 

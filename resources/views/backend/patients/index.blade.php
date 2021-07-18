@@ -27,7 +27,7 @@
                     <th>#</th>
                     <th>Name</th>
                     <th>Phone</th>
-                    <th>Doctor count</th>
+                    <th>Doctors</th>
                     <th colspan="2">Actions</th>
                 </tr>
             </thead>
@@ -40,7 +40,13 @@
                     </td>
                     <td>{{ $patient->phone }}</td>
                     <td>
-                        <p class="badge badge-primary">{{ $patient->appointments->count() }}</p>
+                        @foreach ($patient->appointments as $item)
+                            @foreach ($doctors as $doctor)
+                                @if ($doctor->id == $item->doctor_id)
+                                    <p class="badge badge-success" style="font-size: 15px">{{ $doctor->name }}</p>
+                                @endif
+                            @endforeach
+                        @endforeach
                     </td>
                     <td>
                         <a href="{{ route('admin.patient.edit', $patient->id) }}">

@@ -3,7 +3,7 @@
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center">
     <div class="container">
-        <h1>Medical Volunteer System</h1>
+        <h1>Medical Volunteer</h1>
         <h2>We are team of talented </h2>
         <a href="#about" class="btn-get-started scrollto">Get Started</a>
     </div>
@@ -143,7 +143,7 @@
 
           <div class="section-title">
             <h2>Services</h2>
-            <p>WHAT MAKES US DIFFERENT?</p>
+            <p>WHAT MAKES US DIFFERENT? hhhhhh</p>
           </div>
 
           <div class="row">
@@ -225,8 +225,11 @@
                   <a class="nav-link" data-toggle="tab" href="#tab-4">Pediatrics</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-toggle="tab" href="#tab-5">Eye Care</a>
-                </li>
+                    <a class="nav-link" data-toggle="tab" href="#tab-5">Eye Care</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tab-6">Hama</a>
+                  </li>
               </ul>
             </div>
             <div class="col-lg-9 mt-4 mt-lg-0">
@@ -291,6 +294,18 @@
                     </div>
                   </div>
                 </div>
+                <div class="tab-pane" id="tab-6">
+                    <div class="row">
+                      <div class="col-lg-8 details order-2 order-lg-1">
+                        <h3>Hama</h3>
+                        <p class="font-italic">Getting comprehensive dilated eye exams is especially important because some eye diseases may not have warning signs. The exams are the only way to detect these diseases in their early stages, when they are easier to treat.                    </p>
+                        <p>Your eyes are an important part of your health. Most people rely on their eyes to see and make sense of the world around them. But some eye diseases can lead to vision loss, so it is important to identify and treat eye diseases as early as possible. You should get your eyes checked as often as your health care provider recommends it, or if you have any new vision problems. And just as it is important to keep your body healthy, you also need to keep your eyes healthy.</p>
+                      </div>
+                      <div class="col-lg-4 text-center order-1 order-lg-2">
+                        <img src="{{ asset('img/departments-5.jpg') }}" alt="" class="img-fluid">
+                      </div>
+                    </div>
+                  </div>
               </div>
             </div>
           </div>

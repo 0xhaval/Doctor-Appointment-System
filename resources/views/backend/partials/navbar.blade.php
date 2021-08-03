@@ -57,7 +57,6 @@
                 <ul class="nav nav-second-level collapse">
                     <li><a href="{{ route('admin.appointment.index') }}">Show</a></li>
                     <li><a href="{{ route('admin.appointment.create') }}">Add</a></li>
-                    <li><a href="{{ route('admin.appointment.report') }}">Report</a></li>
                 </ul>
             </li>
 
